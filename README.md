@@ -12,4 +12,4 @@ If you want to modify the included hardware design (you probably should, the HPB
 1. offset_angle - this is the offset angle/beam squint for the two antennas in your monopulse system. Change to whatever angle you have them mounted at.
 2. hp_beamwidth - this is the -3db beamwidth of an individual antenna in the system. Change to match whatever the HPBW of your chosen antennas are.
 
-Note here: Antenna gain patterns are modelled as Gaussian approximations. This may not be appropriate in all cases.
+Note here: Antenna gain patterns are modelled as Gaussian approximation only really considering the main lobe. This may not be appropriate in all cases (particularly with Yagis). I will implement more models in the future for more accurate approximations.
