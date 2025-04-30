@@ -50,7 +50,7 @@ sdr._rxadc.set_kernel_buffers_count(1)   # set buffers to 1 (instead of the defa
 
 
 # Simulated IQ data generation with 50° 3 dB beamwidth
-def generate_iq_data(true_angle, num_samples=1000, noise_level=0.05, beamwidth_3db=hp_beamwidth):
+def generate_iq_data(true_angle, num_samples=1000, noise_level=0.00, beamwidth_3db=hp_beamwidth):
     """
     Simulate IQ data for two antennas with 10° offset and 50° 3 dB beamwidth.
     true_angle: Angle of arrival in degrees
